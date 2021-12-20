@@ -57,7 +57,7 @@ class DoublyLinkedList:
                 i += 1
                 curr = curr.next
                 if curr is None:
-                    print("No valid position {}, if you are trying to enter an element at the last position use the appropriate function".format(pos))
+                    print("Not a valid position {}, if you are trying to enter an element at the last position use the appropriate function".format(pos))
                     return
 
             new_node = Node(data)
